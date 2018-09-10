@@ -1,2 +1,2 @@
-# Lasersecurity
+# Sicherheitssystem
 sfz-hamburg.de
