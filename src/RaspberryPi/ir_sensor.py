@@ -17,8 +17,7 @@ try:
     while True:
         if  GPIO.input(sensor):
             print ("C")
-            #while  GPIO.input(sensor):
-            #time.sleep(0.02)
+            
 
         else:
             print("O")
