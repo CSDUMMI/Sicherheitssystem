@@ -1,9 +1,10 @@
-# Code für IR (Infrarod) gesteuerte Camera
+# Code fÃ¼r IR (Infrarod) gesteuerte Camera
 
-## Erklärung
+## ErklÃ¤rung
 
-Dieser Code ist daführ da, um eine Picamera zu steuern. Dies Erfolgt durch IR Signale. 
-Ein IR Empfenger ist am Raspbery Pi befestigt. Wen der IR Empfenger ein Signal empfängt 
+Dieser Code ist dafÃ¼hr da, um eine Picamera zu steuern. Dies Erfolgt durch IR Signale. 
+Ein IR Empfenger ist am Raspbery Pi befestigt. Wen der IR Empfenger ein Signal empfÃ¤ngt 
 sagt ehr der Camera das sie ein 5 Sek Viedeo machen soll. Das Viedeo wierd dan auf einem Schbeicherplatz
 geschbeichert. In unserem fall einem USB Stick. Man kann den IR Empenger mit allem das IR sendet ansteuern. 
 Man muss nur auf die Frequenz achten. 
+### tips
