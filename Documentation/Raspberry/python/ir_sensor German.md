@@ -1,4 +1,4 @@
-# Code für IR (Infrarod) gesteuerte Camera
+# Code für IR (Infrarot) gesteuerte Camera
 
 ## Erklärung
 
@@ -8,3 +8,6 @@ sagt ehr der Camera das sie ein 5 Sek Viedeo machen soll. Das Viedeo wierd dan a
 geschbeichert. In unserem fall einem USB Stick. Man kann den IR Empenger mit allem das IR sendet ansteuern. 
 Man muss nur auf die Frequenz achten. 
 ## tips
+weg zur data mit hilfe vom terminel hinterhergehen mit dem befehl cd
+und dan wen man bei der python datei ist python 3 und den name der datei eingeben damit es ausgegührt wierd
+um die möglichkeit zu haben das viede apzubrechen mit strg + c.
