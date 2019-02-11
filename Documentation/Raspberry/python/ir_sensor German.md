@@ -1,13 +1,27 @@
-# Code für IR (Infrarot) gesteuerte Camera
+# Code für IR (Infrarot) gesteuerte Kamera
 
 ## Erklärung
 
-Dieser Code ist daführ da, um eine Picamera zu steuern. Dies Erfolgt durch IR Signale. 
-Ein IR Empfenger ist am Raspbery Pi befestigt. Wen der IR Empfenger ein Signal empfängt 
-sagt ehr der Camera das sie ein 5 Sek Viedeo machen soll. Das Viedeo wierd dan auf einem Schbeicherplatz
-geschbeichert. In unserem fall einem USB Stick. Man kann den IR Empenger mit allem das IR sendet ansteuern. 
+Die Datei `src/python/ir_sensor.py` steuert die Picamera und Infrarot Sensoren. Dies Erfolgt durch IR Signale. 
+Ein IR Empfänger ist am Raspbery Pi befestigt. Wen der IR Empfänger ein Signal empfängt 
+wird die Camera ein 5 Sek. Video machen. Das Video wird dann auf einem Speicherplatz
+gespeichert. In unserem Fall einem USB Stick. Man kann den IR Empfänger mit allem das IR sendet ansteuern. 
 Man muss nur auf die Frequenz achten. 
-## tips
-weg zur data mit hilfe vom terminel hinterhergehen mit dem befehl cd
-und dan wen man bei der python datei ist python 3 und den name der datei eingeben damit es ausgegührt wierd
-um die möglichkeit zu haben das viede apzubrechen mit strg + c.
+
+## Tipps
+Gehe zum Ordner mit dem Python Code 
+```bash 
+$ cd src/python/ir_sensor.py
+```
+Dort nun bitte den Code mit dem Program `python3` ausführen.
+Überprüfen sie ob sie dieses installiert haben mit:
+```bash
+$ python3 --version
+Python 3.6.7
+```
+Wenn sie etwas derartiges sehen (oder höher) können sie diesen Code ausführen mit:
+```bash
+$ python3 ir_sensor.py
+```
+Sie können dieses Programm jederzeit mit der Tastenkombination Strg + c stoppen und wieder in den Terminal
+kommen.
